@@ -70,7 +70,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid rgb(106, 104, 104);
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -79,9 +79,11 @@ header .profile-image:hover {
 .experience {
   color: black;
   background-color:rgb(128, 201, 113);
-  padding: .8rem;
+  padding: 1rem;
   border-bottom:rgb(146, 147, 145) solid 5px;
+  font-size: 1.5rem;
 }
+
 .tag-name {
   background-color: #65a463;
   color: black;
@@ -121,13 +123,14 @@ ul.skills {
   padding: 5px 10px;
   margin: 2px;
 }
-.sections {
-  margin: 40px 0;
-}
 .experience-skills {
   line-height: 2rem;
   padding: 0;
-  margin: 20px 0;
+  margin: 30px 0;
+
+}
+.sections {
+  margin: 40px 0;
 }
 
 .home a:hover {
