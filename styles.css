@@ -39,7 +39,6 @@ a:hover {
   margin: 0 auto;
   padding: 0;
 }
-
 .nav .name {
     display: block;
     margin-right: auto;
@@ -54,7 +53,6 @@ a:hover {
 .nav a:hover {
   color: white;
 }
-
 header {
   text-align: center;
   background: url('images/willamette-river.jpg') no-repeat top center ;
@@ -132,7 +130,13 @@ ul.skills {
 .sections {
   margin: 40px 0;
 }
-
+.settee a:hover {
+  color: rgb(48, 84, 46);
+}
+.settee {
+  text-decoration: underline;
+  color: black;
+}
 .home a:hover {
   color: rgb(48, 84, 46);
 }
